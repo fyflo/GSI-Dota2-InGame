@@ -1,11 +1,9 @@
-# Installation
+# Installation & Usage
 1. Run following commands.
    
    ```
-   mkdir dota2-spectating-helper
-   cd dota2-spectating-helper
-   git clone https://github.com/yukidaruma/dota2-spectating-helper .
-   npm install
+   1. Run bat `RUN_dota`
+   2. Open http://localhost:3000.
    ```
 2. Add `gamestate_integration_*.cfg` file to `teamapps\common\dota 2 beta\game\dota\cfg\gamestate_integration\`.
     [Example](https://github.com/xzion/dota2-gsi/blob/master/gamestate_integration_dota2-gsi.cfg):
@@ -72,14 +70,8 @@
 4. Enable "Play Sound in Desktop" and change to Borderless Window in Dota 2 settings.
 5. Adjust `VIDEO_SOURCE_WIDTH`, `VIDEO_SOURCE_HEIGHT`, `VIDEO_SOURCE_FRAMERATE` in `static/index.html` depending on your video settings. (default 1366x768@60fps)
 
-# Usage
-1. Run `npm start`.
-2. Open http://localhost:3000.
-
 Only works for spectator, replay, or broadcaster modes.
 
-# Demo
-https://gfycat.com/TepidSnappyIndianspinyloach
 
 # License
 MIT
