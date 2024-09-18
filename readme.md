@@ -1,5 +1,5 @@
 # Installation & Usage
-1. Run following commands.
+1. Run.
    
    ```
    1. Run bat `RUN_dota`
