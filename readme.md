@@ -54,14 +54,14 @@
             "permissions": [
                 "desktopCapture",
                 "tabs",
-                "http://localhost:3000/*"
+                "http://localhost:3001/*"
             ],
             "background": {
                 "scripts": ["background.js"],
                 "persistent": false
             },
             "content_scripts": [{
-                "matches": ["http://localhost:3000/*"],
+                "matches": ["http://localhost:3001/*"],
                 "js": ["content.js"],
                 "all_frames": true,
                 "run_at": "document_end"
