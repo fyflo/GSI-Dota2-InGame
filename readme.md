@@ -1,11 +1,6 @@
 # Installation & Usage
-1. Run.
-   
-   ```
-   1. Run bat `RUN_dota`
-   2. Open http://localhost:3000.
-   ```
-2. Add `gamestate_integration_*.cfg` file to `teamapps\common\dota 2 beta\game\dota\cfg\gamestate_integration\`.
+
+1. Add `gamestate_integration_*.cfg` file to `teamapps\common\dota 2 beta\game\dota\cfg\gamestate_integration\`.
     [Example](https://github.com/xzion/dota2-gsi/blob/master/gamestate_integration_dota2-gsi.cfg):
     
     ```
@@ -30,7 +25,14 @@
             "token"         "hello1234"
         }
     }
-    ```
+    
+   ```
+2. Run.
+   ```
+   1. Run bat `RUN_dota`
+   2. Open http://localhost:3001.
+   ```
+   
 3. Install [SkyWay Screenshare](https://github.com/nttcom/SkyWay-ScreenShare) browser extension on your browser.
     **Installation for Chrome**
     1. Enable Developer Mode at chrome://extensions
