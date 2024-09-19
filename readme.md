@@ -6,7 +6,7 @@
     ```
     "dota2-gsi Configuration"
     {
-        "uri"               "http://localhost:3000/"
+        "uri"               "http://localhost:3001/"
         "timeout"           "5.0"
         "buffer"            "0.1"
         "throttle"          "0.1"
